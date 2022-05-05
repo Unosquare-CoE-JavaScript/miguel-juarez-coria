@@ -2,7 +2,7 @@
 
 ## Git Areas and Stashing
 **Working Areas, Staging, Areas, Repository**  
-[Working Areas, Staging, Areas, Repository](https://github.com/Unosquare-CoE-JavaScript/miguel-juarez-coria/blob/main/git-in-depth/assets/images/working-area-staging-area-repo.png "Working Areas, Staging, Areas, Repository")
+![Working Areas, Staging, Areas, Repository](https://github.com/Unosquare-CoE-JavaScript/miguel-juarez-coria/blob/main/git-in-depth/assets/images/working-area-staging-area-repo.png "Working Areas, Staging, Areas, Repository")
 
 - The stagging area is how gits knows what will change between the current commit and the next commit.  
 - Tip: a "clean" staging area isn't empty!  
