@@ -2,7 +2,7 @@
 
 ## Introduction
 ### How do we use Git? 
-![How don't use Git!](https://github.com/Unosquare-CoE-JavaScript/miguel-juarez-coria/tree/main/git-in-depth/assets/images/how-you-dont-use-git.png "How don't use Git")
+![How don't use Git!](https://github.com/Unosquare-CoE-JavaScript/miguel-juarez-coria/blob/main/git-in-depth/assets/images/how-you-dont-use%20git.png "How don't use Git")
 
 #### CLI vs GUI
 * **CLI** is more easier to understand what's going on under the hood.
