@@ -8,7 +8,7 @@ You should have the `advanced-git-exercises` repository cloned locally. Checkout
 
 ### Exercises  
 1. Create your own Github fork of https://github.com/nnja/advanced-git-exercises.  
-![Fork repository](https://github.com/Unosquare-CoE-JavaScript/miguel-juarez-coria/blob/main/git-in-depth/assets/imagesfork-repository.png "Fork repository")
+![Fork repository](https://github.com/Unosquare-CoE-JavaScript/miguel-juarez-coria/blob/main/git-in-depth/assets/fork-repository.png "Fork repository")
 Look at your git remotes. Rename your origin remote (nnja's copy) to upstream.  
 2. Add your personal fork as the origin remote.  
     - First, if you checked out `advanced-git-exercises` from Nina's Github, you should see something like this:  

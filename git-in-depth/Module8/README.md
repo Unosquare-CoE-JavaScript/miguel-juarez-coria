@@ -22,7 +22,6 @@ This make resolving merge conflicts much easier.  It's a recommendation use `git
 
 **Autosquash**  
 It's the same as `fixup` but will mix commits and messages, except the first line.  
-![Merge vs Rebase](https://github.com/Unosquare-CoE-JavaScript/miguel-juarez-coria/blob/main/git-in-depth/assets/images/merge-vs-rebase.png "Merge vs Rebase")
 
 **Rebase Abort**  
 If things are going wrong `git rebase --abort`  
