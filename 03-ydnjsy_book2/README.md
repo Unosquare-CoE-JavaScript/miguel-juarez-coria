@@ -354,3 +354,4 @@ We've seen now that declarations using `let` or `const` are `block scoped`, and 
 
 
 # Chapter 7: Using Closures  
+ 
