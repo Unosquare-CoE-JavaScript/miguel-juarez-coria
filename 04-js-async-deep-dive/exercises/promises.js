@@ -1,0 +1,23 @@
+"use strict";
+let asyncFunction = function(){
+  return new Promise(function(resolve, reject){
+     setTimeout(function(){
+        resolve("asyncFunction has resolved.")
+     }, 4000);
+  });
+};
+
+let asyncFunction2 = function(){
+    return new Promise(function(resolve, reject){
+        setTimeout(function(){
+            resolve("asyncFunction2 has resolved.")
+        }, 3000);
+    });
+};
+
+let promise = asyncFunction();
+promise.then(function(val){
+    console.log("It's done!!!"+val);
+});
+
+console.log("The code is asynchronous.");
