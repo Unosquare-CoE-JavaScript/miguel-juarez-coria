@@ -15,9 +15,24 @@ let asyncFunction2 = function(){
     });
 };
 
-let promise = asyncFunction();
-promise.then(function(val){
-    console.log("It's done!!!"+val);
+//Example #1
+/*let promise = asyncFunction();
+let promise2 = promise.then(function(val){
+    console.log("Yeah!, " + val);
+    return asyncFunction2();
 });
-
+promise2.then(function(val){
+    console.log("Second promise: "+val);
+});
+console.log("The code is asynchronous.");*/
+    
+//Example #2
+asyncFunction.promise
+    .then(function(val){
+        console.log("Yeah!, " + val);
+        return asyncFunction2();
+    })
+    .then(function(val){
+    console.log("Second promise: "+val);
+});
 console.log("The code is asynchronous.");
