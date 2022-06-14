@@ -294,4 +294,9 @@ Important notes about `await`:
 - It waits for a `promise`  
 - It causes the `async` function to pause  
 
+# Generators Functions  
+A generator is a special function which can pause the execution code and pick it up in another point of the code.  
+Two reserved words are used: ´function*´ and ´yield´.  
+
+
 
